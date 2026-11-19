@@ -2,6 +2,6 @@ NexaTools SEO update
 
 Added sitemap.xml with all 56 published HTML pages (homepage, directory, 50 tool pages, and support/legal pages). Updated robots.txt to point to the production sitemap URL. Added canonical URLs, Open Graph metadata, and page descriptions across the site. Added WebSite structured data to the homepage and WebApplication structured data to the 50 tool pages.
 
-Production URL currently uses https://nexatools-green.vercel.app based on the Vercel production domain shown during deployment. If the production domain changes, update the canonical URLs, Open Graph URLs, robots.txt Sitemap line, and sitemap.xml.
+Production URL currently uses https://nexatools-m.vercel.app based on the Vercel production domain shown during deployment. If the production domain changes, update the canonical URLs, Open Graph URLs, robots.txt Sitemap line, and sitemap.xml.
 
 Google Search Console submission is a separate step after the site is live and publicly accessible.
