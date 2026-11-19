@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/>
+<title>CSV to JSON Converter — Free Online Tool | NexaTools</title><meta content="Convert comma-separated data into structured JSON." name="description"/><meta content="#f7faf4" name="theme-color"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Manrope:wght@500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="assets/css/site.css" rel="stylesheet"/><link href="assets/css/utility-pages.css" rel="stylesheet"/><link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body data-tool="csv-to-json"><div class="top"><div class="wrap">Free online tools <span>·</span> No account required <span>·</span> Your everyday digital workspace</div></div>
+<header class="nav"><div class="wrap navin"><a class="logo" href="index.html"><b>N.</b>Nexa<span>Tools</span></a><nav class="links"><a href="index.html">Home</a><a href="index.html#categories">Utility hubs</a><a href="index.html#popular">Popular tools</a><a href="tools.html">All tools</a></nav><a class="nav-cta" href="tools.html">All 50 tools <span>→</span></a></div></header>
+<main><section class="pagehero"><div class="wrap"><div class="breadcrumb"><a href="index.html">Home</a><span>/</span><a href="index.html#categories">File Utility Hub</a><span>/</span><span>CSV to JSON Converter</span></div><span class="eyebrow">FILE UTILITY HUB</span><h1>CSV to JSON Converter</h1><p>Convert comma-separated data into structured JSON.</p><div class="tool-meta"><span><i></i> Free to use</span><span>Runs in your browser</span><span>No account needed</span></div></div></section>
+<section class="wrap tool-layout"><div class="tool-main"><div class="panel"><div class="panel-head"><span class="tool-step">01</span><h2>Convert CSV to JSON</h2></div><label class="field">CSV input<textarea id="csvInput" placeholder="name,city
+Ada,Lagos
+Tunde,Abuja"></textarea></label><button class="btn" id="convertCsvJson">Convert to JSON</button><div class="result" id="result"></div></div>None
+<section class="content-panel"><div class="content-kicker">A QUICK GUIDE</div><h2>Turn spreadsheet-style CSV into JSON</h2><p class="content-lead">Paste comma-separated values with a header row to create an array of JSON objects. Each header becomes a property name and each following row becomes an object.</p><h3>How to use it</h3><ol class="steps-list"><li>Paste CSV with column names on the first row.</li><li>Choose Convert to JSON.</li><li>Review the output and download or copy it.</li></ol><div class="tip-box"><b>Helpful tip</b><p>Make sure the first row contains the column names if you want object-style JSON. Check quoted commas and line breaks in the source CSV.</p></div></section>
+<section class="content-panel faq-panel"><div class="content-kicker">GOOD TO KNOW</div><h2>Frequently asked questions</h2><p class="content-lead">Answers about column headings, quoted values and converting rows into JSON records.</p><details class="faq-item"><summary>Does the first row become field names?</summary><div>Yes. The first row is treated as the header row and its values become JSON property names.</div></details><details class="faq-item"><summary>Can fields contain commas?</summary><div>Yes, if the CSV uses standard double-quote wrapping around fields that contain commas.</div></details><details class="faq-item"><summary>What happens if a row has fewer columns?</summary><div>Missing cells are converted to empty strings so each output object follows the same header structure.</div></details></section></div>
+<aside class="tool-aside"><div class="adbox">ADVERTISEMENT SPACE</div><div class="aside-card"><h3>Explore related tools</h3><a class="related-tool" href="pdf-merger.html"><span>PDF Merger</span><b>↗</b></a><a class="related-tool" href="pdf-splitter.html"><span>PDF Splitter</span><b>↗</b></a><a class="related-tool" href="image-to-pdf.html"><span>Image-to-PDF Converter</span><b>↗</b></a><a class="related-tool" href="document-converter.html"><span>Document Converter</span><b>↗</b></a></div><div class="aside-card"><h3>Need something else?</h3><p>Browse the full directory of 50 free utilities.</p><a class="aside-browse" href="tools.html">Browse all 50 tools <b>→</b></a></div></aside></section></main>
+<footer class="footer"><div class="wrap footin"><span>© 2026 NexaTools. Useful tools for everyday work.</span><span><a href="index.html">Home</a> · <a href="about.html">About</a> · <a href="contact.html">Contact</a> · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></span></div></footer>
+<script src="assets/js/new-tools.js"></script><script>
+(() => {
+  const button = document.getElementById('toolMenuToggle');
+  const nav = document.getElementById('toolNavigation');
+  if (!button || !nav) return;
+  const close = () => { document.body.classList.remove('tool-menu-open'); button.setAttribute('aria-expanded','false'); button.setAttribute('aria-label','Open navigation'); button.innerHTML='<i class="fa-solid fa-bars" aria-hidden="true"></i>'; };
+  button.addEventListener('click', () => {
+    const open = document.body.classList.toggle('tool-menu-open');
+    button.setAttribute('aria-expanded', String(open));
+    button.setAttribute('aria-label', open ? 'Close navigation' : 'Open navigation');
+    button.innerHTML = open ? '<i class="fa-solid fa-xmark" aria-hidden="true"></i>' : '<i class="fa-solid fa-bars" aria-hidden="true"></i>';
+  });
+  nav.querySelectorAll('a').forEach(link => link.addEventListener('click', close));
+  document.addEventListener('keydown', event => { if (event.key === 'Escape') close(); });
+})();
+</script>
+</body></html>

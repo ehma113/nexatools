@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/>
+<title>Image Format Converter — Free Online Tool | NexaTools</title>
+<meta content="Convert images between PNG, JPEG and WebP." name="description"/>
+<meta content="#f7faf4" name="theme-color"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Manrope:wght@500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="assets/css/site.css" rel="stylesheet"/><link href="assets/css/utility-pages.css" rel="stylesheet"/>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body data-tool="image-converter">
+<div class="top"><div class="wrap">Free online tools <span>·</span> No account required <span>·</span> Your everyday digital workspace</div></div>
+<header class="nav"><div class="wrap navin">
+<a aria-label="NexaTools home" class="logo" href="index.html"><b>N.</b>Nexa<span>Tools</span></a>
+<nav id="toolNavigation" aria-label="Main navigation" class="links"><a href="index.html">Home</a><a href="index.html#categories">Utility hubs</a><a href="index.html#popular">Popular tools</a><a href="tools.html">All tools</a></nav>
+<a class="nav-cta" href="tools.html">All 50 tools <span>→</span></a>
+<button class="tool-menu-toggle" id="toolMenuToggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="toolNavigation"><i class="fa-solid fa-bars" aria-hidden="true"></i></button>
+</div></header>
+<main>
+<section class="pagehero"><div class="wrap">
+<div class="breadcrumb"><a href="index.html">Home</a><span>/</span><a href="index.html#categories">Image Utility Hub</a><span>/</span><span>Image Format Converter</span></div>
+<span class="eyebrow">IMAGE UTILITY HUB</span><h1>Image Format Converter</h1><p>Convert images between PNG, JPEG and WebP.</p>
+<div class="tool-meta"><span><i></i> Free to use</span><span>Runs in your browser</span><span>No account needed</span></div>
+</div></section>
+<section class="wrap tool-layout">
+<div class="tool-main">
+<div class="panel"><h2>Use the image converter</h2><label class="field">Choose an image<input accept="image/*" id="file" type="file"/></label><label class="field">Output format<select id="format"><option value="image/png">PNG</option><option value="image/jpeg">JPEG</option><option value="image/webp">WebP</option></select></label><button class="btn" disabled="" id="process">Process image</button><div class="preview" id="preview"></div><div class="result" id="result"></div><p class="help">Processing happens locally in your browser. Very large images may use significant device memory.</p></div>
+<section aria-labelledby="how-title" class="content-panel"><div class="content-kicker">A QUICK GUIDE</div><h2 id="how-title">Save an image in a different format</h2><p class="content-lead">Convert a supported image into a selected output format. Different formats suit different uses: JPEG is common for photos, PNG supports transparency, and WebP can offer efficient web delivery.</p>
+<h3>How to use it</h3><ol class="steps-list"><li>Choose an image from your device.</li><li>Select the output format.</li><li>Convert and download the new image.</li></ol>
+<div class="tip-box"><b>Helpful tip</b><p>Choose PNG for graphics that need transparency, JPEG for photographs, and WebP when you need a modern web-friendly format.</p></div>
+</section>
+<section aria-labelledby="faq-title" class="content-panel faq-panel"><div class="content-kicker">GOOD TO KNOW</div><h2 id="faq-title">Frequently asked questions</h2><p class="content-lead">Find out which image formats are supported and when to choose each one.</p><details class="faq-item"><summary>Which formats are supported?</summary><div>The converter offers common browser-export formats such as JPEG, PNG and WebP.</div></details><details class="faq-item"><summary>Will transparency be preserved?</summary><div>JPEG does not support transparency. Choose PNG or WebP when transparency matters.</div></details><details class="faq-item"><summary>Why can the converted file be larger?</summary><div>The output format and quality settings affect file size. A lossless PNG can be larger than a compressed JPEG.</div></details></section>
+</div>
+<aside class="tool-aside">
+<div class="adbox">ADVERTISEMENT SPACE</div>
+<div class="aside-card"><h3>Explore related tools</h3><a class="related-tool" href="image-compressor.html"><span>Image Compressor</span><b>↗</b></a><a class="related-tool" href="image-resizer.html"><span>Image Resizer</span><b>↗</b></a><a class="related-tool" href="image-cropper.html"><span>Image Cropper</span><b>↗</b></a><a class="related-tool" href="colour-picker.html"><span>Colour Picker</span><b>↗</b></a></div>
+<div class="aside-card"><h3>Need something else?</h3><p>Browse the complete NexaTools directory to find another free utility.</p><a class="aside-browse" href="tools.html">Browse all 50 tools <b>→</b></a></div>
+</aside>
+</section>
+</main>
+<footer class="footer"><div class="wrap footin"><span>© 2026 NexaTools. Useful tools for everyday work.</span><span><a href="index.html">Home</a> · <a href="about.html">About</a> · <a href="contact.html">Contact</a> · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></span></div></footer>
+
+
+
+
+
+<script src="assets/js/app.js"></script><script>
+(() => {
+  const button = document.getElementById('toolMenuToggle');
+  const nav = document.getElementById('toolNavigation');
+  if (!button || !nav) return;
+  const close = () => { document.body.classList.remove('tool-menu-open'); button.setAttribute('aria-expanded','false'); button.setAttribute('aria-label','Open navigation'); button.innerHTML='<i class="fa-solid fa-bars" aria-hidden="true"></i>'; };
+  button.addEventListener('click', () => {
+    const open = document.body.classList.toggle('tool-menu-open');
+    button.setAttribute('aria-expanded', String(open));
+    button.setAttribute('aria-label', open ? 'Close navigation' : 'Open navigation');
+    button.innerHTML = open ? '<i class="fa-solid fa-xmark" aria-hidden="true"></i>' : '<i class="fa-solid fa-bars" aria-hidden="true"></i>';
+  });
+  nav.querySelectorAll('a').forEach(link => link.addEventListener('click', close));
+  document.addEventListener('keydown', event => { if (event.key === 'Escape') close(); });
+})();
+</script>
+</body></html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/>
+<title>PDF Splitter — Free Online Tool | NexaTools</title>
+<meta content="Extract selected pages from a PDF." name="description"/>
+<meta content="#f7faf4" name="theme-color"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Manrope:wght@500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="assets/css/site.css" rel="stylesheet"/><link href="assets/css/utility-pages.css" rel="stylesheet"/>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body data-tool="pdf-splitter">
+<div class="top"><div class="wrap">Free online tools <span>·</span> No account required <span>·</span> Your everyday digital workspace</div></div>
+<header class="nav"><div class="wrap navin">
+<a aria-label="NexaTools home" class="logo" href="index.html"><b>N.</b>Nexa<span>Tools</span></a>
+<nav id="toolNavigation" aria-label="Main navigation" class="links"><a href="index.html">Home</a><a href="index.html#categories">Utility hubs</a><a href="index.html#popular">Popular tools</a><a href="tools.html">All tools</a></nav>
+<a class="nav-cta" href="tools.html">All 50 tools <span>→</span></a>
+<button class="tool-menu-toggle" id="toolMenuToggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="toolNavigation"><i class="fa-solid fa-bars" aria-hidden="true"></i></button>
+</div></header>
+<main>
+<section class="pagehero"><div class="wrap">
+<div class="breadcrumb"><a href="index.html">Home</a><span>/</span><a href="index.html#categories">File Utility Hub</a><span>/</span><span>PDF Splitter</span></div>
+<span class="eyebrow">FILE UTILITY HUB</span><h1>PDF Splitter</h1><p>Extract selected pages from a PDF.</p>
+<div class="tool-meta"><span><i></i> Free to use</span><span>Runs in your browser</span><span>No account needed</span></div>
+</div></section>
+<section class="wrap tool-layout">
+<div class="tool-main">
+<div class="panel"><h2>Use the tool</h2><label class="field">Choose PDF<input accept="application/pdf" id="file" type="file"/></label><label class="field">Pages to extract (e.g. 1, 3-5)<input id="pages" placeholder="1, 3-5"/></label><button class="btn" id="split">Extract pages</button><div class="result" id="result"></div><p class="help">Page numbers start at 1. Processing happens in your browser.</p></div>
+<section aria-labelledby="how-title" class="content-panel"><div class="content-kicker">A QUICK GUIDE</div><h2 id="how-title">Extract only the pages you need</h2><p class="content-lead">Create a smaller PDF containing selected pages from a larger document. Enter individual page numbers or ranges, such as 1, 3-5.</p>
+<h3>How to use it</h3><ol class="steps-list"><li>Choose a PDF file.</li><li>Enter page numbers or ranges, separated by commas.</li><li>Select Extract pages and save the new PDF.</li></ol>
+<div class="tip-box"><b>Helpful tip</b><p>Page numbers start at 1, not 0. Preview the selected range and make sure you haven&#x27;t left out a page you need.</p></div>
+</section>
+<section aria-labelledby="faq-title" class="content-panel faq-panel"><div class="content-kicker">GOOD TO KNOW</div><h2 id="faq-title">Frequently asked questions</h2><p class="content-lead">Understand page ranges, page numbering and the files this tool can process.</p><details class="faq-item"><summary>Do page numbers start at zero?</summary><div>No. Enter page numbers as they appear in the document, starting at page 1.</div></details><details class="faq-item"><summary>Can I select a range?</summary><div>Yes. Use a hyphen, such as 4-8, and separate multiple selections with commas.</div></details><details class="faq-item"><summary>Can I extract pages in a different order?</summary><div>Enter the page numbers in the order you want them in the output. Repeated page numbers may be included more than once.</div></details></section>
+</div>
+<aside class="tool-aside">
+<div class="adbox">ADVERTISEMENT SPACE</div>
+<div class="aside-card"><h3>Explore related tools</h3><a class="related-tool" href="pdf-merger.html"><span>PDF Merger</span><b>↗</b></a><a class="related-tool" href="image-to-pdf.html"><span>Image-to-PDF Converter</span><b>↗</b></a><a class="related-tool" href="document-converter.html"><span>Document Converter</span><b>↗</b></a><a class="related-tool" href="file-size-calculator.html"><span>File Size Calculator</span><b>↗</b></a></div>
+<div class="aside-card"><h3>Need something else?</h3><p>Browse the complete NexaTools directory to find another free utility.</p><a class="aside-browse" href="tools.html">Browse all 50 tools <b>→</b></a></div>
+</aside>
+</section>
+</main>
+<footer class="footer"><div class="wrap footin"><span>© 2026 NexaTools. Useful tools for everyday work.</span><span><a href="index.html">Home</a> · <a href="about.html">About</a> · <a href="contact.html">Contact</a> · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></span></div></footer>
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf-lib/1.17.1/pdf-lib.min.js"></script><script src="assets/js/app.js"></script><script>
+(() => {
+  const button = document.getElementById('toolMenuToggle');
+  const nav = document.getElementById('toolNavigation');
+  if (!button || !nav) return;
+  const close = () => { document.body.classList.remove('tool-menu-open'); button.setAttribute('aria-expanded','false'); button.setAttribute('aria-label','Open navigation'); button.innerHTML='<i class="fa-solid fa-bars" aria-hidden="true"></i>'; };
+  button.addEventListener('click', () => {
+    const open = document.body.classList.toggle('tool-menu-open');
+    button.setAttribute('aria-expanded', String(open));
+    button.setAttribute('aria-label', open ? 'Close navigation' : 'Open navigation');
+    button.innerHTML = open ? '<i class="fa-solid fa-xmark" aria-hidden="true"></i>' : '<i class="fa-solid fa-bars" aria-hidden="true"></i>';
+  });
+  nav.querySelectorAll('a').forEach(link => link.addEventListener('click', close));
+  document.addEventListener('keydown', event => { if (event.key === 'Escape') close(); });
+})();
+</script>
+</body></html>

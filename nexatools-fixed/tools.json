@@ -1,0 +1,352 @@
+[
+  {
+    "id": "ai-text-summarizer",
+    "name": "Text Summarizer",
+    "description": "Create a shorter extractive summary by selecting key sentences.",
+    "category": "Writing & Text Tools",
+    "url": "ai-text-summarizer.html"
+  },
+  {
+    "id": "text-rewriter",
+    "name": "Text Rewriter",
+    "description": "Rewrite text for clearer, more concise wording.",
+    "category": "Writing & Text Tools",
+    "url": "text-rewriter.html"
+  },
+  {
+    "id": "grammar-checker",
+    "name": "Grammar Checker",
+    "description": "Review text for common grammar and punctuation issues.",
+    "category": "Writing & Text Tools",
+    "url": "grammar-checker.html"
+  },
+  {
+    "id": "case-converter",
+    "name": "Case Converter",
+    "description": "Convert text to uppercase, lowercase, title case or sentence case.",
+    "category": "Writing & Text Tools",
+    "url": "case-converter.html"
+  },
+  {
+    "id": "age-calculator",
+    "name": "Age Calculator",
+    "description": "Calculate age in years, months and days.",
+    "category": "Everyday Tools",
+    "url": "age-calculator.html"
+  },
+  {
+    "id": "date-calculator",
+    "name": "Date Calculator",
+    "description": "Find the days between dates or add days to a date.",
+    "category": "Everyday Tools",
+    "url": "date-calculator.html"
+  },
+  {
+    "id": "percentage-calculator",
+    "name": "Percentage Calculator",
+    "description": "Calculate percentages, ratios and percentage changes.",
+    "category": "Everyday Tools",
+    "url": "percentage-calculator.html"
+  },
+  {
+    "id": "unit-converter",
+    "name": "Unit Converter",
+    "description": "Convert common length, weight and volume units.",
+    "category": "Everyday Tools",
+    "url": "unit-converter.html"
+  },
+  {
+    "id": "time-calculator",
+    "name": "Time Calculator",
+    "description": "Add or subtract hours and minutes.",
+    "category": "Everyday Tools",
+    "url": "time-calculator.html"
+  },
+  {
+    "id": "qr-code-generator",
+    "name": "QR Code Generator",
+    "description": "Create a downloadable QR code from text or a URL.",
+    "category": "Everyday Tools",
+    "url": "qr-code-generator.html"
+  },
+  {
+    "id": "json-formatter",
+    "name": "JSON Formatter",
+    "description": "Validate, format and minify JSON data.",
+    "category": "Everyday Tools",
+    "url": "json-formatter.html"
+  },
+  {
+    "id": "gpa-calculator",
+    "name": "GPA Calculator",
+    "description": "Calculate a weighted GPA on a 5-point scale.",
+    "category": "Student Utility Hub",
+    "url": "gpa-calculator.html"
+  },
+  {
+    "id": "cgpa-calculator",
+    "name": "CGPA Calculator",
+    "description": "Calculate cumulative GPA across semesters.",
+    "category": "Student Utility Hub",
+    "url": "cgpa-calculator.html"
+  },
+  {
+    "id": "grade-calculator",
+    "name": "Grade Calculator",
+    "description": "Convert marks into percentages and letter grades.",
+    "category": "Student Utility Hub",
+    "url": "grade-calculator.html"
+  },
+  {
+    "id": "study-timetable-generator",
+    "name": "Study Timetable Generator",
+    "description": "Create a simple weekly study timetable.",
+    "category": "Student Utility Hub",
+    "url": "study-timetable-generator.html"
+  },
+  {
+    "id": "word-counter",
+    "name": "Word Counter",
+    "description": "Count words, characters, sentences and paragraphs.",
+    "category": "Student Utility Hub",
+    "url": "word-counter.html"
+  },
+  {
+    "id": "focus-timer",
+    "name": "Focus Timer",
+    "description": "Use a simple timer for study and focused work sessions.",
+    "category": "Student Utility Hub",
+    "url": "focus-timer.html"
+  },
+  {
+    "id": "image-compressor",
+    "name": "Image Compressor",
+    "description": "Reduce image file size in your browser.",
+    "category": "Image Utility Hub",
+    "url": "image-compressor.html"
+  },
+  {
+    "id": "image-resizer",
+    "name": "Image Resizer",
+    "description": "Resize an image to the dimensions you need.",
+    "category": "Image Utility Hub",
+    "url": "image-resizer.html"
+  },
+  {
+    "id": "image-converter",
+    "name": "Image Format Converter",
+    "description": "Convert images between PNG, JPEG and WebP.",
+    "category": "Image Utility Hub",
+    "url": "image-converter.html"
+  },
+  {
+    "id": "image-cropper",
+    "name": "Image Cropper",
+    "description": "Crop an image to your chosen dimensions.",
+    "category": "Image Utility Hub",
+    "url": "image-cropper.html"
+  },
+  {
+    "id": "colour-picker",
+    "name": "Colour Picker",
+    "description": "Pick a colour and copy HEX, RGB and HSL values.",
+    "category": "Image Utility Hub",
+    "url": "colour-picker.html"
+  },
+  {
+    "id": "pdf-merger",
+    "name": "PDF Merger",
+    "description": "Combine multiple PDF files into one document.",
+    "category": "File Utility Hub",
+    "url": "pdf-merger.html"
+  },
+  {
+    "id": "pdf-splitter",
+    "name": "PDF Splitter",
+    "description": "Extract selected pages from a PDF.",
+    "category": "File Utility Hub",
+    "url": "pdf-splitter.html"
+  },
+  {
+    "id": "image-to-pdf",
+    "name": "Image-to-PDF Converter",
+    "description": "Turn one or more images into a PDF.",
+    "category": "File Utility Hub",
+    "url": "image-to-pdf.html"
+  },
+  {
+    "id": "document-converter",
+    "name": "Document Converter",
+    "description": "Convert plain text into TXT, Markdown or HTML.",
+    "category": "File Utility Hub",
+    "url": "document-converter.html"
+  },
+  {
+    "id": "file-size-calculator",
+    "name": "File Size Calculator",
+    "description": "Convert digital file sizes between units.",
+    "category": "File Utility Hub",
+    "url": "file-size-calculator.html"
+  },
+  {
+    "id": "weather-checker",
+    "name": "Weather Checker & Forecast",
+    "description": "Check current conditions and a 7-day forecast worldwide.",
+    "category": "Weather Information",
+    "url": "weather-checker.html"
+  },
+  {
+    "id": "budget-planner",
+    "name": "Monthly Budget Planner",
+    "description": "Plan income and expenses and see your monthly balance.",
+    "category": "Finance Tools",
+    "url": "budget-planner.html"
+  },
+  {
+    "id": "savings-goal-calculator",
+    "name": "Savings Goal Calculator",
+    "description": "Work out how much to save each month to reach a target.",
+    "category": "Finance Tools",
+    "url": "savings-goal-calculator.html"
+  },
+  {
+    "id": "password-generator",
+    "name": "Password Generator",
+    "description": "Create a strong random password with the character types you choose.",
+    "category": "Everyday Tools",
+    "url": "password-generator.html"
+  },
+  {
+    "id": "random-number-generator",
+    "name": "Random Number Generator",
+    "description": "Generate one or more random numbers within a range.",
+    "category": "Everyday Tools",
+    "url": "random-number-generator.html"
+  },
+  {
+    "id": "stopwatch",
+    "name": "Online Stopwatch",
+    "description": "Time activities with start, pause, reset and lap recording.",
+    "category": "Everyday Tools",
+    "url": "stopwatch.html"
+  },
+  {
+    "id": "countdown-timer",
+    "name": "Countdown Timer",
+    "description": "Set a countdown for study sessions, breaks and everyday tasks.",
+    "category": "Everyday Tools",
+    "url": "countdown-timer.html"
+  },
+  {
+    "id": "reading-time-calculator",
+    "name": "Reading Time Calculator",
+    "description": "Estimate how long a text will take to read aloud or silently.",
+    "category": "Writing & Text Tools",
+    "url": "reading-time-calculator.html"
+  },
+  {
+    "id": "text-cleaner",
+    "name": "Text Cleaner",
+    "description": "Remove extra spaces, blank lines and unwanted formatting from text.",
+    "category": "Writing & Text Tools",
+    "url": "text-cleaner.html"
+  },
+  {
+    "id": "duplicate-line-remover",
+    "name": "Duplicate Line Remover",
+    "description": "Find and remove repeated lines from lists and text.",
+    "category": "Writing & Text Tools",
+    "url": "duplicate-line-remover.html"
+  },
+  {
+    "id": "find-and-replace",
+    "name": "Find and Replace Text",
+    "description": "Find words or phrases and replace them in a block of text.",
+    "category": "Writing & Text Tools",
+    "url": "find-and-replace.html"
+  },
+  {
+    "id": "url-encoder-decoder",
+    "name": "URL Encoder & Decoder",
+    "description": "Encode or decode text for safe use in web addresses.",
+    "category": "Writing & Text Tools",
+    "url": "url-encoder-decoder.html"
+  },
+  {
+    "id": "base64-encoder-decoder",
+    "name": "Base64 Encoder & Decoder",
+    "description": "Encode plain text to Base64 or decode Base64 back to text.",
+    "category": "Writing & Text Tools",
+    "url": "base64-encoder-decoder.html"
+  },
+  {
+    "id": "html-entity-encoder",
+    "name": "HTML Entity Encoder",
+    "description": "Encode special characters as HTML entities or decode them.",
+    "category": "Writing & Text Tools",
+    "url": "html-entity-encoder.html"
+  },
+  {
+    "id": "slug-generator",
+    "name": "URL Slug Generator",
+    "description": "Turn titles and phrases into clean, readable URL slugs.",
+    "category": "Writing & Text Tools",
+    "url": "slug-generator.html"
+  },
+  {
+    "id": "lorem-ipsum-generator",
+    "name": "Lorem Ipsum Generator",
+    "description": "Generate placeholder text for layouts, mockups and design drafts.",
+    "category": "Writing & Text Tools",
+    "url": "lorem-ipsum-generator.html"
+  },
+  {
+    "id": "word-frequency-counter",
+    "name": "Word Frequency Counter",
+    "description": "See which words appear most often in a text.",
+    "category": "Writing & Text Tools",
+    "url": "word-frequency-counter.html"
+  },
+  {
+    "id": "csv-to-json",
+    "name": "CSV to JSON Converter",
+    "description": "Convert comma-separated data into structured JSON.",
+    "category": "File Utility Hub",
+    "url": "csv-to-json.html"
+  },
+  {
+    "id": "json-to-csv",
+    "name": "JSON to CSV Converter",
+    "description": "Turn an array of JSON objects into a CSV file.",
+    "category": "File Utility Hub",
+    "url": "json-to-csv.html"
+  },
+  {
+    "id": "markdown-preview",
+    "name": "Markdown Previewer",
+    "description": "Write Markdown and preview headings, lists, links and formatting.",
+    "category": "Writing & Text Tools",
+    "url": "markdown-preview.html"
+  },
+  {
+    "id": "color-contrast-checker",
+    "name": "Colour Contrast Checker",
+    "description": "Check text and background contrast against WCAG guidance.",
+    "category": "Image Utility Hub",
+    "url": "color-contrast-checker.html"
+  },
+  {
+    "id": "aspect-ratio-calculator",
+    "name": "Aspect Ratio Calculator",
+    "description": "Calculate image and video dimensions while keeping an aspect ratio.",
+    "category": "Image Utility Hub",
+    "url": "aspect-ratio-calculator.html"
+  },
+  {
+    "id": "image-metadata-viewer",
+    "name": "Image Metadata Viewer",
+    "description": "Inspect an image's dimensions, format and file size on your device.",
+    "category": "Image Utility Hub",
+    "url": "image-metadata-viewer.html"
+  }
+]

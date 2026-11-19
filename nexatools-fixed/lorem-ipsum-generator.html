@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/>
+<title>Lorem Ipsum Generator — Free Online Tool | NexaTools</title><meta content="Generate placeholder text for layouts, mockups and design drafts." name="description"/><meta content="#f7faf4" name="theme-color"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Manrope:wght@500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="assets/css/site.css" rel="stylesheet"/><link href="assets/css/utility-pages.css" rel="stylesheet"/><link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body data-tool="lorem-ipsum-generator"><div class="top"><div class="wrap">Free online tools <span>·</span> No account required <span>·</span> Your everyday digital workspace</div></div>
+<header class="nav"><div class="wrap navin"><a class="logo" href="index.html"><b>N.</b>Nexa<span>Tools</span></a><nav class="links"><a href="index.html">Home</a><a href="index.html#categories">Utility hubs</a><a href="index.html#popular">Popular tools</a><a href="tools.html">All tools</a></nav><a class="nav-cta" href="tools.html">All 50 tools <span>→</span></a></div></header>
+<main><section class="pagehero"><div class="wrap"><div class="breadcrumb"><a href="index.html">Home</a><span>/</span><a href="index.html#categories">Writing &amp; Text Tools</a><span>/</span><span>Lorem Ipsum Generator</span></div><span class="eyebrow">WRITING &amp; TEXT TOOLS</span><h1>Lorem Ipsum Generator</h1><p>Generate placeholder text for layouts, mockups and design drafts.</p><div class="tool-meta"><span><i></i> Free to use</span><span>Runs in your browser</span><span>No account needed</span></div></div></section>
+<section class="wrap tool-layout"><div class="tool-main"><div class="panel"><div class="panel-head"><span class="tool-step">01</span><h2>Generate placeholder text</h2></div><div class="formrow"><label class="field">Paragraphs<input id="loremCount" max="12" min="1" type="number" value="3"/></label><label class="field">Length<select id="loremLength"><option value="short">Short</option><option selected="" value="medium">Medium</option><option value="long">Long</option></select></label></div><button class="btn" id="makeLorem">Generate text</button><div class="result" id="result"></div></div>None
+<section class="content-panel"><div class="content-kicker">A QUICK GUIDE</div><h2>Create placeholder copy for a layout</h2><p class="content-lead">Generate sample placeholder paragraphs or sentences for mockups, wireframes and design previews. Replace the placeholder text with real, reviewed copy before publishing.</p><h3>How to use it</h3><ol class="steps-list"><li>Choose the number of paragraphs or sentences.</li><li>Generate the sample text.</li><li>Copy the output into your mockup or design.</li></ol><div class="tip-box"><b>Helpful tip</b><p>Placeholder text is useful for checking layout and spacing, but replace it with meaningful copy before publishing a page.</p></div></section>
+<section class="content-panel faq-panel"><div class="content-kicker">GOOD TO KNOW</div><h2>Frequently asked questions</h2><p class="content-lead">Learn how placeholder copy helps with design and when to replace it.</p><details class="faq-item"><summary>Is Lorem Ipsum real content?</summary><div>No. It is placeholder text used to show how a layout may look before final copy is ready.</div></details><details class="faq-item"><summary>Can I use it on a published website?</summary><div>It is better to replace placeholder text before publishing. Visitors need meaningful content and search engines need useful page information.</div></details><details class="faq-item"><summary>Can I generate multiple paragraphs?</summary><div>Yes. Choose the amount of placeholder text you need within the tool's available limits.</div></details></section></div>
+<aside class="tool-aside"><div class="adbox">ADVERTISEMENT SPACE</div><div class="aside-card"><h3>Explore related tools</h3><a class="related-tool" href="ai-text-summarizer.html"><span>Text Summarizer</span><b>↗</b></a><a class="related-tool" href="text-rewriter.html"><span>Text Rewriter</span><b>↗</b></a><a class="related-tool" href="grammar-checker.html"><span>Grammar Checker</span><b>↗</b></a><a class="related-tool" href="case-converter.html"><span>Case Converter</span><b>↗</b></a></div><div class="aside-card"><h3>Need something else?</h3><p>Browse the full directory of 50 free utilities.</p><a class="aside-browse" href="tools.html">Browse all 50 tools <b>→</b></a></div></aside></section></main>
+<footer class="footer"><div class="wrap footin"><span>© 2026 NexaTools. Useful tools for everyday work.</span><span><a href="index.html">Home</a> · <a href="about.html">About</a> · <a href="contact.html">Contact</a> · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></span></div></footer>
+<script src="assets/js/new-tools.js"></script><script>
+(() => {
+  const button = document.getElementById('toolMenuToggle');
+  const nav = document.getElementById('toolNavigation');
+  if (!button || !nav) return;
+  const close = () => { document.body.classList.remove('tool-menu-open'); button.setAttribute('aria-expanded','false'); button.setAttribute('aria-label','Open navigation'); button.innerHTML='<i class="fa-solid fa-bars" aria-hidden="true"></i>'; };
+  button.addEventListener('click', () => {
+    const open = document.body.classList.toggle('tool-menu-open');
+    button.setAttribute('aria-expanded', String(open));
+    button.setAttribute('aria-label', open ? 'Close navigation' : 'Open navigation');
+    button.innerHTML = open ? '<i class="fa-solid fa-xmark" aria-hidden="true"></i>' : '<i class="fa-solid fa-bars" aria-hidden="true"></i>';
+  });
+  nav.querySelectorAll('a').forEach(link => link.addEventListener('click', close));
+  document.addEventListener('keydown', event => { if (event.key === 'Escape') close(); });
+})();
+</script>
+</body></html>

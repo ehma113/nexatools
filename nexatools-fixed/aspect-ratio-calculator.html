@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/>
+<title>Aspect Ratio Calculator — Free Online Tool | NexaTools</title><meta content="Calculate image and video dimensions while keeping an aspect ratio." name="description"/><meta content="#f7faf4" name="theme-color"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Manrope:wght@500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="assets/css/site.css" rel="stylesheet"/><link href="assets/css/utility-pages.css" rel="stylesheet"/><link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body data-tool="aspect-ratio-calculator"><div class="top"><div class="wrap">Free online tools <span>·</span> No account required <span>·</span> Your everyday digital workspace</div></div>
+<header class="nav"><div class="wrap navin"><a class="logo" href="index.html"><b>N.</b>Nexa<span>Tools</span></a><nav class="links"><a href="index.html">Home</a><a href="index.html#categories">Utility hubs</a><a href="index.html#popular">Popular tools</a><a href="tools.html">All tools</a></nav><a class="nav-cta" href="tools.html">All 50 tools <span>→</span></a></div></header>
+<main><section class="pagehero"><div class="wrap"><div class="breadcrumb"><a href="index.html">Home</a><span>/</span><a href="index.html#categories">Image Utility Hub</a><span>/</span><span>Aspect Ratio Calculator</span></div><span class="eyebrow">IMAGE UTILITY HUB</span><h1>Aspect Ratio Calculator</h1><p>Calculate image and video dimensions while keeping an aspect ratio.</p><div class="tool-meta"><span><i></i> Free to use</span><span>Runs in your browser</span><span>No account needed</span></div></div></section>
+<section class="wrap tool-layout"><div class="tool-main"><div class="panel"><div class="panel-head"><span class="tool-step">01</span><h2>Keep your dimensions proportional</h2></div><div class="formrow"><label class="field">Original width (px)<input id="ratioWidth" min="1" type="number" value="1920"/></label><label class="field">Original height (px)<input id="ratioHeight" min="1" type="number" value="1080"/></label></div><div class="formrow"><label class="field">New width (px)<input id="newWidth" min="1" type="number" value="1280"/></label><label class="field">New height (px)<input id="newHeight" min="1" placeholder="Calculated automatically" type="number"/></label></div><button class="btn" id="calculateRatio">Calculate dimensions</button><div class="result" id="result"></div></div>None
+<section class="content-panel"><div class="content-kicker">A QUICK GUIDE</div><h2>Resize dimensions without stretching</h2><p class="content-lead">Enter a source width and height, then provide one new dimension. The calculator works out the other dimension while preserving the original proportions.</p><h3>How to use it</h3><ol class="steps-list"><li>Enter the original width and height.</li><li>Enter either the new width or the new height.</li><li>Calculate the matching dimension.</li></ol><div class="tip-box"><b>Helpful tip</b><p>Enter the original dimensions first, then change one target dimension. The other value is calculated to preserve the same proportions.</p></div></section>
+<section class="content-panel faq-panel"><div class="content-kicker">GOOD TO KNOW</div><h2>Frequently asked questions</h2><p class="content-lead">Answers about proportional resizing, common ratios and rounding pixel dimensions.</p><details class="faq-item"><summary>What is a 16:9 ratio used for?</summary><div>16:9 is common for widescreen video and presentation formats. Other uses may require 1:1, 4:3 or custom proportions.</div></details><details class="faq-item"><summary>Will the result always be a whole number?</summary><div>Pixel dimensions are rounded to the nearest whole pixel, so a tiny rounding difference can occur.</div></details><details class="faq-item"><summary>Can I change both dimensions independently?</summary><div>This calculator preserves the original ratio. If you need different proportions, use the image resizer and disable its ratio lock.</div></details></section></div>
+<aside class="tool-aside"><div class="adbox">ADVERTISEMENT SPACE</div><div class="aside-card"><h3>Explore related tools</h3><a class="related-tool" href="image-compressor.html"><span>Image Compressor</span><b>↗</b></a><a class="related-tool" href="image-resizer.html"><span>Image Resizer</span><b>↗</b></a><a class="related-tool" href="image-converter.html"><span>Image Format Converter</span><b>↗</b></a><a class="related-tool" href="image-cropper.html"><span>Image Cropper</span><b>↗</b></a></div><div class="aside-card"><h3>Need something else?</h3><p>Browse the full directory of 50 free utilities.</p><a class="aside-browse" href="tools.html">Browse all 50 tools <b>→</b></a></div></aside></section></main>
+<footer class="footer"><div class="wrap footin"><span>© 2026 NexaTools. Useful tools for everyday work.</span><span><a href="index.html">Home</a> · <a href="about.html">About</a> · <a href="contact.html">Contact</a> · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></span></div></footer>
+<script src="assets/js/new-tools.js"></script><script>
+(() => {
+  const button = document.getElementById('toolMenuToggle');
+  const nav = document.getElementById('toolNavigation');
+  if (!button || !nav) return;
+  const close = () => { document.body.classList.remove('tool-menu-open'); button.setAttribute('aria-expanded','false'); button.setAttribute('aria-label','Open navigation'); button.innerHTML='<i class="fa-solid fa-bars" aria-hidden="true"></i>'; };
+  button.addEventListener('click', () => {
+    const open = document.body.classList.toggle('tool-menu-open');
+    button.setAttribute('aria-expanded', String(open));
+    button.setAttribute('aria-label', open ? 'Close navigation' : 'Open navigation');
+    button.innerHTML = open ? '<i class="fa-solid fa-xmark" aria-hidden="true"></i>' : '<i class="fa-solid fa-bars" aria-hidden="true"></i>';
+  });
+  nav.querySelectorAll('a').forEach(link => link.addEventListener('click', close));
+  document.addEventListener('keydown', event => { if (event.key === 'Escape') close(); });
+})();
+</script>
+</body></html>

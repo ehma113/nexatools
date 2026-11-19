@@ -1,0 +1,405 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>NexaTools — Make the busywork disappear</title>
+  <meta name="description" content="Explore free online tools for writing, studying, images, PDFs, everyday calculations, weather and budgeting. No account required.">
+  <meta name="theme-color" content="#f7faf4">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/redesign.css">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+
+<body class="light">
+
+<header class="site-header">
+  <a class="brand" href="index.html" aria-label="NexaTools home">
+    <span class="brand-mark">n.</span>
+    <span>NexaTools</span>
+  </a>
+
+  <nav id="primary-navigation" class="main-nav" aria-label="Main navigation">
+    <a href="#discover">Discover</a>
+    <a href="#categories">Utility hubs</a>
+    <a href="#popular">Popular tools</a>
+    <a href="tools.html">All tools</a>
+  </nav>
+
+  <div class="header-actions">
+    <span class="system-status"><i></i> 50 tools available</span>
+    <a class="header-cta" href="tools.html">Explore tools <b>→</b></a>
+    <button class="mobile-menu" id="mobileMenu" aria-label="Open menu" aria-expanded="false">☰</button>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero" id="discover">
+    <div class="hero-copy">
+      <div class="eyebrow">
+        <span></span>
+        YOUR EVERYDAY DIGITAL WORKSPACE
+        <i></i>
+      </div>
+
+      <h1>Make the busywork<br><em>disappear.</em></h1>
+
+      <p class="hero-description">
+        Useful online tools for everyday tasks, studying, work and creativity —
+        simple to access, quick to use and free to explore.
+      </p>
+
+      <div class="search-area">
+        <form class="tool-search" id="toolSearchForm" role="search">
+          <i class="fa-solid fa-magnifying-glass search-symbol" aria-hidden="true"></i>
+          <input
+            id="toolSearch"
+            type="search"
+            placeholder="What do you need to get done?"
+            autocomplete="off"
+            aria-label="Search tools"
+          >
+          <button type="submit">Search <b>→</b></button>
+        </form>
+
+        <div class="search-results" id="searchResults" hidden></div>
+      </div>
+
+      <div class="quick-tools">
+        <span>Quick tools:</span>
+        <a href="image-compressor.html"><i class="fa-solid fa-image" aria-hidden="true"></i> Compress image</a>
+        <a href="gpa-calculator.html"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i> GPA calculator</a>
+        <a href="pdf-merger.html"><i class="fa-solid fa-file-pdf" aria-hidden="true"></i> Merge PDF</a>
+      </div>
+    </div>
+
+    <div class="hero-art" aria-label="A preview of NexaTools utilities">
+      <div class="art-halo halo-a"></div>
+      <div class="art-halo halo-b"></div>
+      <div class="art-glow"></div>
+
+      <div class="nexa-orb">
+        <span>N</span>
+        <i>✦</i>
+      </div>
+
+      <a class="preview-card weather-preview" href="weather-checker.html">
+        <div class="preview-heading">
+          <span>WEATHER TOOL PREVIEW</span>
+          <b>↗</b>
+        </div>
+        <div class="weather-content">
+          <i class="fa-solid fa-cloud weather-icon" aria-hidden="true"></i>
+          <strong>29°</strong>
+        </div>
+        <p>Check local conditions <small>Live details in the weather tool</small></p>
+      </a>
+
+      <a class="preview-card grade-preview" href="grade-calculator.html">
+        <div class="preview-heading">
+          <span><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i> &nbsp; Grade Calculator</span>
+          <b>↗</b>
+        </div>
+        <div class="grade-content">
+          <strong>84%</strong>
+          <span>B+</span>
+        </div>
+        <div class="grade-track"><i></i></div>
+      </a>
+
+      <a class="preview-card pdf-preview" href="pdf-merger.html">
+        <div class="preview-heading">
+          <span><i class="fa-solid fa-file-pdf" aria-hidden="true"></i> &nbsp; Merge PDF</span>
+          <b>↗</b>
+        </div>
+        <div class="pdf-stack">
+          <i>PDF</i>
+          <i>PDF</i>
+          <b>+</b>
+        </div>
+      </a>
+
+      <a class="preview-card image-preview" href="image-compressor.html">
+        <div class="preview-heading">
+          <span><i class="fa-solid fa-image" aria-hidden="true"></i> &nbsp; Image Studio</span>
+          <b>↗</b>
+        </div>
+        <div class="image-stack">
+          <i></i><i></i><i></i>
+        </div>
+        <small>Compress · Resize · Convert</small>
+      </a>
+
+      <div class="art-spark spark-one">✦</div>
+      <div class="art-spark spark-two">·</div>
+    </div>
+  </section>
+
+  <!-- PROOF BAR -->
+  <section class="proof-bar" aria-label="NexaTools at a glance">
+    <div class="proof-intro">
+      <i class="fa-solid fa-layer-group proof-icon" aria-hidden="true"></i>
+      <div>
+        <strong>7 Utility Hubs</strong>
+        <small>All your essential tools in one place</small>
+      </div>
+    </div>
+
+    <div class="proof-item">
+      <i class="fa-solid fa-bolt proof-icon" aria-hidden="true"></i>
+      <div>
+        <strong>50 Tools</strong>
+        <small>Ways to get things done</small>
+      </div>
+    </div>
+
+    <div class="proof-item">
+      <i class="fa-solid fa-user-check proof-icon" aria-hidden="true"></i>
+      <div>
+        <strong>0 Accounts Required</strong>
+        <small>Use available tools without creating an account</small>
+      </div>
+    </div>
+  </section>
+
+  <!-- POPULAR TOOLS -->
+  <section class="section featured-section" id="popular">
+    <div class="section-title-row popular-title">
+      <div>
+        <h2>What are we getting done?</h2>
+        <p>The tools people reach for most — quick, useful and ready when you need them.</p>
+      </div>
+      <a class="popular-note popular-directory-link" href="tools.html">
+        VIEW ALL 50 TOOLS <b>→</b>
+      </a>
+    </div>
+
+    <div class="featured-grid popular-grid">
+
+      <a class="feature-card feature-word" href="word-counter.html">
+        <div class="feature-copy">
+          <span class="feature-tag">WRITING ESSENTIAL</span>
+          <h3>Word Counter</h3>
+          <p>Count words, characters, sentences and paragraphs as you type.</p>
+          <span class="feature-button">Use tool <b>→</b></span>
+        </div>
+        <div class="popular-visual word-visual">
+          <div class="word-paper">
+            <b>Words</b>
+            <strong>1,248</strong>
+            <span>Characters&nbsp;&nbsp; 7,506</span>
+            <i></i><i></i><i></i>
+          </div>
+        </div>
+      </a>
+
+      <a class="feature-card feature-qr" href="qr-code-generator.html">
+        <div class="feature-copy">
+          <span class="feature-tag">QUICK SHARE</span>
+          <h3>QR Code Generator</h3>
+          <p>Turn a link or short message into a QR code you can save.</p>
+          <span class="feature-button">Use tool <b>→</b></span>
+        </div>
+        <div class="popular-visual qr-visual">
+          <div class="fake-qr">▦<b>▣</b>▦<i>▣</i>▦</div>
+        </div>
+      </a>
+
+      <a class="feature-card feature-pdf" href="pdf-merger.html">
+        <div class="feature-copy">
+          <span class="feature-tag">FILE ESSENTIAL</span>
+          <h3>PDF Merger</h3>
+          <p>Combine multiple PDF files into one organised document.</p>
+          <span class="feature-button">Use tool <b>→</b></span>
+        </div>
+        <div class="big-pdf">
+          <div class="paper paper-back"></div>
+          <div class="paper paper-front">
+            <span>PDF</span><i></i><i></i><i></i>
+          </div>
+          <b>PDF</b>
+        </div>
+      </a>
+
+      <a class="feature-card feature-image" href="image-compressor.html">
+        <div class="feature-copy">
+          <span class="feature-tag">IMAGE ESSENTIAL</span>
+          <h3>Image Compressor</h3>
+          <p>Reduce image file size for uploads, sharing and websites.</p>
+          <span class="feature-button">Use tool <b>→</b></span>
+        </div>
+        <div class="feature-visual photo-visual">
+          <div class="mountain-sun"></div>
+          <div class="mountain m-one"></div>
+          <div class="mountain m-two"></div>
+          <div class="file-saving">−68%<small>File size</small></div>
+        </div>
+      </a>
+
+      <a class="feature-card feature-json" href="password-generator.html">
+        <div class="feature-copy">
+          <span class="feature-tag">ACCOUNT SECURITY</span>
+          <h3>Password Generator</h3>
+          <p>Create a strong random password for a new account in seconds.</p>
+          <span class="feature-button">Use tool <b>→</b></span>
+        </div>
+        <div class="popular-visual">
+          <div class="password-visual">
+            ••••••••••••
+            <small>STRONG PASSWORD</small>
+          </div>
+        </div>
+      </a>
+
+      <a class="feature-card feature-percent" href="percentage-calculator.html">
+        <div class="feature-copy">
+          <span class="feature-tag">EVERYDAY CALCULATOR</span>
+          <h3>Percentage Calculator</h3>
+          <p>Work out discounts, proportions and percentage changes.</p>
+          <span class="feature-button">Use tool <b>→</b></span>
+        </div>
+        <div class="popular-visual percent-visual">
+          <strong>25%</strong>
+          <span>Quick calculation</span>
+          <i></i>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- UTILITY HUBS -->
+  <section class="section hubs-section" id="categories">
+    <div class="section-title-row">
+      <h2>Find your kind of useful.</h2>
+      <p>
+        Seven powerful hubs. Do more, faster.
+        <a class="hub-directory-link" href="tools.html">Browse all 50 tools →</a>
+      </p>
+    </div>
+
+    <div class="hub-grid">
+
+      <a class="hub-card hub-ai" href="ai-text-summarizer.html">
+        <div class="hub-top">
+          <span class="hub-number">01</span>
+          <span class="hub-icon"><i class="fa-solid fa-pen-to-square" aria-hidden="true"></i></span>
+          <span class="hub-arrow">→</span>
+        </div>
+        <h3>Writing & Text Tools</h3>
+        <p>Write, edit, clean and analyse text with practical writing utilities.</p>
+        <small>Word Count · Case · Grammar · Text</small>
+      </a>
+
+      <a class="hub-card hub-everyday" href="age-calculator.html">
+        <div class="hub-top">
+          <span class="hub-number">02</span>
+          <span class="hub-icon"><i class="fa-solid fa-calculator" aria-hidden="true"></i></span>
+          <span class="hub-arrow">→</span>
+        </div>
+        <h3>Everyday Tools</h3>
+        <p>Simple and useful calculators for daily tasks, conversions and quick solutions.</p>
+        <small>Age · Date · Percentage · Time</small>
+      </a>
+
+      <a class="hub-card hub-student" href="gpa-calculator.html">
+        <div class="hub-top">
+          <span class="hub-number">03</span>
+          <span class="hub-icon"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i></span>
+          <span class="hub-arrow">→</span>
+        </div>
+        <h3>Student Utility Hub</h3>
+        <p>GPA, CGPA, grade calculator, study timetable and tools to boost your academics.</p>
+        <small>GPA · CGPA · Grades · Study</small>
+      </a>
+
+      <a class="hub-card hub-image" href="image-compressor.html">
+        <div class="hub-top">
+          <span class="hub-number">04</span>
+          <span class="hub-icon"><i class="fa-solid fa-image" aria-hidden="true"></i></span>
+          <span class="hub-arrow">→</span>
+        </div>
+        <h3>Image Utility Hub</h3>
+        <p>Compress, resize, convert, crop and pick colours from any image.</p>
+        <small>Compress · Resize · Crop · Convert</small>
+      </a>
+
+      <a class="hub-card hub-file" href="pdf-merger.html">
+        <div class="hub-top">
+          <span class="hub-number">05</span>
+          <span class="hub-icon"><i class="fa-solid fa-file-pdf" aria-hidden="true"></i></span>
+          <span class="hub-arrow">→</span>
+        </div>
+        <h3>File Utility Hub</h3>
+        <p>Merge, split, convert and manage your PDF and document files.</p>
+        <small>Merge · Split · Image to PDF</small>
+      </a>
+
+      <a class="hub-card hub-weather" href="weather-checker.html">
+        <div class="hub-top">
+          <span class="hub-number">06</span>
+          <span class="hub-icon"><i class="fa-solid fa-cloud-sun" aria-hidden="true"></i></span>
+          <span class="hub-arrow">→</span>
+        </div>
+        <h3>Weather & Forecasts</h3>
+        <p>Check real-time weather, forecasts and conditions for any city worldwide.</p>
+        <small>Current weather · Forecasts</small>
+      </a>
+
+      <a class="hub-card hub-finance" href="budget-planner.html">
+        <div class="hub-top">
+          <span class="hub-number">07</span>
+          <span class="hub-icon"><i class="fa-solid fa-wallet" aria-hidden="true"></i></span>
+          <span class="hub-arrow">→</span>
+        </div>
+        <h3>Finance Tools</h3>
+        <p>Plan your budget, calculate percentages and track your savings goals.</p>
+        <small>Budget · Percentages · Savings</small>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section class="bottom-banner">
+    <div>
+      <span class="banner-kicker">LESS BUSYWORK. MORE LIFE.</span>
+      <h2>Your next task is already covered.</h2>
+      <p>From school and work to creativity and everyday life — NexaTools has the right tool for you.</p>
+    </div>
+    <a href="tools.html">Explore all tools <b>→</b></a>
+    <div class="banner-wave"></div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <a class="brand" href="index.html">
+    <span class="brand-mark">n.</span>
+    <span>NexaTools</span>
+  </a>
+
+  <p>Useful tools for the things you do every day.</p>
+
+  <div class="footer-links">
+    <a href="tools.html">All tools</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="privacy.html">Privacy</a>
+    <a href="terms.html">Terms</a>
+  </div>
+
+  <small>© 2026 NexaTools</small>
+</footer>
+
+<script src="assets/js/home.js"></script>
+</body>
+</html>

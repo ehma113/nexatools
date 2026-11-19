@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/>
+<title>Image-to-PDF Converter — Free Online Tool | NexaTools</title>
+<meta content="Turn one or more images into a PDF." name="description"/>
+<meta content="#f7faf4" name="theme-color"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Manrope:wght@500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="assets/css/site.css" rel="stylesheet"/><link href="assets/css/utility-pages.css" rel="stylesheet"/>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body data-tool="image-to-pdf">
+<div class="top"><div class="wrap">Free online tools <span>·</span> No account required <span>·</span> Your everyday digital workspace</div></div>
+<header class="nav"><div class="wrap navin">
+<a aria-label="NexaTools home" class="logo" href="index.html"><b>N.</b>Nexa<span>Tools</span></a>
+<nav id="toolNavigation" aria-label="Main navigation" class="links"><a href="index.html">Home</a><a href="index.html#categories">Utility hubs</a><a href="index.html#popular">Popular tools</a><a href="tools.html">All tools</a></nav>
+<a class="nav-cta" href="tools.html">All 50 tools <span>→</span></a>
+<button class="tool-menu-toggle" id="toolMenuToggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="toolNavigation"><i class="fa-solid fa-bars" aria-hidden="true"></i></button>
+</div></header>
+<main>
+<section class="pagehero"><div class="wrap">
+<div class="breadcrumb"><a href="index.html">Home</a><span>/</span><a href="index.html#categories">File Utility Hub</a><span>/</span><span>Image-to-PDF Converter</span></div>
+<span class="eyebrow">FILE UTILITY HUB</span><h1>Image-to-PDF Converter</h1><p>Turn one or more images into a PDF.</p>
+<div class="tool-meta"><span><i></i> Free to use</span><span>Runs in your browser</span><span>No account needed</span></div>
+</div></section>
+<section class="wrap tool-layout">
+<div class="tool-main">
+<div class="panel"><h2>Use the tool</h2><label class="field">Choose images<input accept="image/*" id="files" multiple="" type="file"/></label><button class="btn" id="convert">Create PDF</button><div class="result" id="result"></div></div>
+<section aria-labelledby="how-title" class="content-panel"><div class="content-kicker">A QUICK GUIDE</div><h2 id="how-title">Turn images into a shareable PDF</h2><p class="content-lead">Combine image files into a PDF document. This is useful for scanned pages, receipts, notes and photos you need to share as one file.</p>
+<h3>How to use it</h3><ol class="steps-list"><li>Select one or more supported image files.</li><li>Choose Create PDF.</li><li>Save the generated PDF to your device.</li></ol>
+<div class="tip-box"><b>Helpful tip</b><p>Use clear, upright images and check the order before creating the PDF. Very large photos can produce a larger document.</p></div>
+</section>
+<section aria-labelledby="faq-title" class="content-panel faq-panel"><div class="content-kicker">GOOD TO KNOW</div><h2 id="faq-title">Frequently asked questions</h2><p class="content-lead">Learn about image formats, page order and how images are placed into the PDF.</p><details class="faq-item"><summary>Which image formats can be used?</summary><div>The tool supports common browser-readable images, including JPEG and PNG, and may convert other browser-readable formats before adding them.</div></details><details class="faq-item"><summary>Will each image get its own page?</summary><div>Yes. Each selected image is placed on its own PDF page.</div></details><details class="faq-item"><summary>Can I rearrange the image order?</summary><div>The images are processed in the order returned by the file picker. Rename or select files in the desired order before converting.</div></details></section>
+</div>
+<aside class="tool-aside">
+<div class="adbox">ADVERTISEMENT SPACE</div>
+<div class="aside-card"><h3>Explore related tools</h3><a class="related-tool" href="pdf-merger.html"><span>PDF Merger</span><b>↗</b></a><a class="related-tool" href="pdf-splitter.html"><span>PDF Splitter</span><b>↗</b></a><a class="related-tool" href="document-converter.html"><span>Document Converter</span><b>↗</b></a><a class="related-tool" href="file-size-calculator.html"><span>File Size Calculator</span><b>↗</b></a></div>
+<div class="aside-card"><h3>Need something else?</h3><p>Browse the complete NexaTools directory to find another free utility.</p><a class="aside-browse" href="tools.html">Browse all 50 tools <b>→</b></a></div>
+</aside>
+</section>
+</main>
+<footer class="footer"><div class="wrap footin"><span>© 2026 NexaTools. Useful tools for everyday work.</span><span><a href="index.html">Home</a> · <a href="about.html">About</a> · <a href="contact.html">Contact</a> · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></span></div></footer>
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf-lib/1.17.1/pdf-lib.min.js"></script><script src="assets/js/app.js"></script><script>
+(() => {
+  const button = document.getElementById('toolMenuToggle');
+  const nav = document.getElementById('toolNavigation');
+  if (!button || !nav) return;
+  const close = () => { document.body.classList.remove('tool-menu-open'); button.setAttribute('aria-expanded','false'); button.setAttribute('aria-label','Open navigation'); button.innerHTML='<i class="fa-solid fa-bars" aria-hidden="true"></i>'; };
+  button.addEventListener('click', () => {
+    const open = document.body.classList.toggle('tool-menu-open');
+    button.setAttribute('aria-expanded', String(open));
+    button.setAttribute('aria-label', open ? 'Close navigation' : 'Open navigation');
+    button.innerHTML = open ? '<i class="fa-solid fa-xmark" aria-hidden="true"></i>' : '<i class="fa-solid fa-bars" aria-hidden="true"></i>';
+  });
+  nav.querySelectorAll('a').forEach(link => link.addEventListener('click', close));
+  document.addEventListener('keydown', event => { if (event.key === 'Escape') close(); });
+})();
+</script>
+</body></html>

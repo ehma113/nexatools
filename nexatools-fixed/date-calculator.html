@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/>
+<title>Date Calculator — Free Online Tool | NexaTools</title>
+<meta content="Find the days between dates or add days to a date." name="description"/>
+<meta content="#f7faf4" name="theme-color"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Manrope:wght@500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="assets/css/site.css" rel="stylesheet"/><link href="assets/css/utility-pages.css" rel="stylesheet"/>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body data-tool="date-calculator">
+<div class="top"><div class="wrap">Free online tools <span>·</span> No account required <span>·</span> Your everyday digital workspace</div></div>
+<header class="nav"><div class="wrap navin">
+<a aria-label="NexaTools home" class="logo" href="index.html"><b>N.</b>Nexa<span>Tools</span></a>
+<nav id="toolNavigation" aria-label="Main navigation" class="links"><a href="index.html">Home</a><a href="index.html#categories">Utility hubs</a><a href="index.html#popular">Popular tools</a><a href="tools.html">All tools</a></nav>
+<a class="nav-cta" href="tools.html">All 50 tools <span>→</span></a>
+<button class="tool-menu-toggle" id="toolMenuToggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="toolNavigation"><i class="fa-solid fa-bars" aria-hidden="true"></i></button>
+</div></header>
+<main>
+<section class="pagehero"><div class="wrap">
+<div class="breadcrumb"><a href="index.html">Home</a><span>/</span><a href="index.html#categories">Utility hubs</a><span>/</span><span>Date Calculator</span></div>
+<span class="eyebrow">EVERYDAY TOOLS</span><h1>Date Calculator</h1><p>Find the days between dates or add days to a date.</p>
+<div class="tool-meta"><span><i></i> Free to use</span><span>Runs in your browser</span><span>No account needed</span></div>
+</div></section>
+<section class="wrap tool-layout">
+<div class="tool-main">
+<div class="panel"><h2>Use the tool</h2><label class="field">Mode<select id="mode"><option value="between">Days between two dates</option><option value="add">Add days to a date</option></select></label><label class="field">Start date<input id="date1" type="date"/></label><label class="field" id="date2wrap">End date<input id="date2" type="date"/></label><label class="field" hidden="" id="dayswrap">Number of days<input id="days" type="number" value="30"/></label><button class="btn" id="calculate">Calculate</button><div class="result" id="result"></div></div>
+<section aria-labelledby="how-title" class="content-panel"><div class="content-kicker">A QUICK GUIDE</div><h2 id="how-title">Count days or move a date forward</h2><p class="content-lead">Find the number of days between two calendar dates, or add a chosen number of days to a starting date. This can help with planning, deadlines and date comparisons.</p>
+<h3>How to use it</h3><ol class="steps-list"><li>Choose whether to add days or compare two dates.</li><li>Enter the starting date and any required second date or day count.</li><li>Select Calculate to see the result.</li></ol>
+<div class="tip-box"><b>Helpful tip</b><p>For deadlines, confirm whether the organisation counts the starting day, weekends or public holidays. This calculator gives calendar-day results.</p></div>
+</section>
+<section aria-labelledby="faq-title" class="content-panel faq-panel"><div class="content-kicker">GOOD TO KNOW</div><h2 id="faq-title">Frequently asked questions</h2><p class="content-lead">Answers about calendar days, date ranges and counting days for deadlines.</p><details class="faq-item"><summary>Does the result include the start date?</summary><div>The date difference is the elapsed number of days between the two dates. Inclusive counting for deadlines may require adding one day.</div></details><details class="faq-item"><summary>Are leap years included?</summary><div>Yes. The calculation uses calendar dates, including leap days.</div></details><details class="faq-item"><summary>Can I calculate dates in the past?</summary><div>Yes. You can compare past dates or add days to a past date as well as a future one.</div></details></section>
+</div>
+<aside class="tool-aside">
+<div class="adbox">ADVERTISEMENT SPACE</div>
+<div class="aside-card"><h3>Explore related tools</h3><a class="related-tool" href="age-calculator.html"><span>Age Calculator</span><b>↗</b></a><a class="related-tool" href="percentage-calculator.html"><span>Percentage Calculator</span><b>↗</b></a><a class="related-tool" href="unit-converter.html"><span>Unit Converter</span><b>↗</b></a><a class="related-tool" href="time-calculator.html"><span>Time Calculator</span><b>↗</b></a></div>
+<div class="aside-card"><h3>Need something else?</h3><p>Browse the complete NexaTools directory to find another free utility.</p><a class="aside-browse" href="tools.html">Browse all 50 tools <b>→</b></a></div>
+</aside>
+</section>
+</main>
+<footer class="footer"><div class="wrap footin"><span>© 2026 NexaTools. Useful tools for everyday work.</span><span><a href="index.html">Home</a> · <a href="about.html">About</a> · <a href="contact.html">Contact</a> · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></span></div></footer>
+
+
+
+
+
+<script src="assets/js/app.js"></script><script>
+(() => {
+  const button = document.getElementById('toolMenuToggle');
+  const nav = document.getElementById('toolNavigation');
+  if (!button || !nav) return;
+  const close = () => { document.body.classList.remove('tool-menu-open'); button.setAttribute('aria-expanded','false'); button.setAttribute('aria-label','Open navigation'); button.innerHTML='<i class="fa-solid fa-bars" aria-hidden="true"></i>'; };
+  button.addEventListener('click', () => {
+    const open = document.body.classList.toggle('tool-menu-open');
+    button.setAttribute('aria-expanded', String(open));
+    button.setAttribute('aria-label', open ? 'Close navigation' : 'Open navigation');
+    button.innerHTML = open ? '<i class="fa-solid fa-xmark" aria-hidden="true"></i>' : '<i class="fa-solid fa-bars" aria-hidden="true"></i>';
+  });
+  nav.querySelectorAll('a').forEach(link => link.addEventListener('click', close));
+  document.addEventListener('keydown', event => { if (event.key === 'Escape') close(); });
+})();
+</script>
+</body></html>

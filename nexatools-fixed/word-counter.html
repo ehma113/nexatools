@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/>
+<title>Word Counter — Free Online Tool | NexaTools</title>
+<meta content="Count words, characters, sentences and paragraphs." name="description"/>
+<meta content="#f7faf4" name="theme-color"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Manrope:wght@500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="assets/css/site.css" rel="stylesheet"/><link href="assets/css/utility-pages.css" rel="stylesheet"/>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body data-tool="word-counter">
+<div class="top"><div class="wrap">Free online tools <span>·</span> No account required <span>·</span> Your everyday digital workspace</div></div>
+<header class="nav"><div class="wrap navin">
+<a aria-label="NexaTools home" class="logo" href="index.html"><b>N.</b>Nexa<span>Tools</span></a>
+<nav id="toolNavigation" aria-label="Main navigation" class="links"><a href="index.html">Home</a><a href="index.html#categories">Utility hubs</a><a href="index.html#popular">Popular tools</a><a href="tools.html">All tools</a></nav>
+<a class="nav-cta" href="tools.html">All 50 tools <span>→</span></a>
+<button class="tool-menu-toggle" id="toolMenuToggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="toolNavigation"><i class="fa-solid fa-bars" aria-hidden="true"></i></button>
+</div></header>
+<main>
+<section class="pagehero"><div class="wrap">
+<div class="breadcrumb"><a href="index.html">Home</a><span>/</span><a href="index.html#categories">Student Utility Hub</a><span>/</span><span>Word Counter</span></div>
+<span class="eyebrow">STUDENT UTILITY HUB</span><h1>Word Counter</h1><p>Count words, characters, sentences and paragraphs.</p>
+<div class="tool-meta"><span><i></i> Free to use</span><span>Runs in your browser</span><span>No account needed</span></div>
+</div></section>
+<section class="wrap tool-layout">
+<div class="tool-main">
+<div class="panel"><h2>Paste or type your text</h2><label class="field">Your text<textarea id="text" placeholder="Start typing or paste your text here..."></textarea></label><div class="stats"><div class="stat"><b id="words">0</b><small>Words</small></div><div class="stat"><b id="chars">0</b><small>Characters</small></div><div class="stat"><b id="sentences">0</b><small>Sentences</small></div><div class="stat"><b id="paragraphs">0</b><small>Paragraphs</small></div></div></div>
+<section aria-labelledby="how-title" class="content-panel"><div class="content-kicker">A QUICK GUIDE</div><h2 id="how-title">Know exactly what your text contains</h2><p class="content-lead">Get an instant count of words, characters, sentences and paragraphs while you type. It is useful for essays, application forms, captions, articles and any task with a length requirement.</p>
+<h3>How to use it</h3><ol class="steps-list"><li>Paste or type your text in the editor.</li><li>Watch the four counters update as you edit.</li><li>Use the character count when a form has a strict limit.</li></ol>
+<div class="tip-box"><b>Helpful tip</b><p>Different platforms count hyphenated words, contractions and symbols differently. Use this live count as a guide, then check the rules of the form or platform you&#x27;re submitting to.</p></div>
+</section>
+<section aria-labelledby="faq-title" class="content-panel faq-panel"><div class="content-kicker">GOOD TO KNOW</div><h2 id="faq-title">Frequently asked questions</h2><p class="content-lead">Learn how words and characters are counted and why different platforms may show slightly different totals.</p><details class="faq-item"><summary>Are spaces included in the character count?</summary><div>Yes. The character total includes spaces, punctuation and line breaks, because they are all characters in the text.</div></details><details class="faq-item"><summary>How are words counted?</summary><div>Words are separated by whitespace. Hyphenated terms and contractions are treated as one word.</div></details><details class="faq-item"><summary>Does it save my writing?</summary><div>No account or upload is needed. The counter runs in your browser; copy your text before closing the page if you want to keep it.</div></details></section>
+</div>
+<aside class="tool-aside">
+<div class="adbox">ADVERTISEMENT SPACE</div>
+<div class="aside-card"><h3>Explore related tools</h3><a class="related-tool" href="gpa-calculator.html"><span>GPA Calculator</span><b>↗</b></a><a class="related-tool" href="cgpa-calculator.html"><span>CGPA Calculator</span><b>↗</b></a><a class="related-tool" href="grade-calculator.html"><span>Grade Calculator</span><b>↗</b></a><a class="related-tool" href="study-timetable-generator.html"><span>Study Timetable Generator</span><b>↗</b></a></div>
+<div class="aside-card"><h3>Need something else?</h3><p>Browse the complete NexaTools directory to find another free utility.</p><a class="aside-browse" href="tools.html">Browse all 50 tools <b>→</b></a></div>
+</aside>
+</section>
+</main>
+<footer class="footer"><div class="wrap footin"><span>© 2026 NexaTools. Useful tools for everyday work.</span><span><a href="index.html">Home</a> · <a href="about.html">About</a> · <a href="contact.html">Contact</a> · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></span></div></footer>
+
+
+
+
+
+<script src="assets/js/app.js"></script><script>
+(() => {
+  const button = document.getElementById('toolMenuToggle');
+  const nav = document.getElementById('toolNavigation');
+  if (!button || !nav) return;
+  const close = () => { document.body.classList.remove('tool-menu-open'); button.setAttribute('aria-expanded','false'); button.setAttribute('aria-label','Open navigation'); button.innerHTML='<i class="fa-solid fa-bars" aria-hidden="true"></i>'; };
+  button.addEventListener('click', () => {
+    const open = document.body.classList.toggle('tool-menu-open');
+    button.setAttribute('aria-expanded', String(open));
+    button.setAttribute('aria-label', open ? 'Close navigation' : 'Open navigation');
+    button.innerHTML = open ? '<i class="fa-solid fa-xmark" aria-hidden="true"></i>' : '<i class="fa-solid fa-bars" aria-hidden="true"></i>';
+  });
+  nav.querySelectorAll('a').forEach(link => link.addEventListener('click', close));
+  document.addEventListener('keydown', event => { if (event.key === 'Escape') close(); });
+})();
+</script>
+</body></html>

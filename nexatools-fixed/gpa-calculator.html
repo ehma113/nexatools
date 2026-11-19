@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/>
+<title>GPA Calculator — Free Online Tool | NexaTools</title>
+<meta content="Calculate a weighted GPA on a 5-point scale." name="description"/>
+<meta content="#f7faf4" name="theme-color"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Manrope:wght@500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="assets/css/site.css" rel="stylesheet"/><link href="assets/css/utility-pages.css" rel="stylesheet"/>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body data-tool="gpa-calculator">
+<div class="top"><div class="wrap">Free online tools <span>·</span> No account required <span>·</span> Your everyday digital workspace</div></div>
+<header class="nav"><div class="wrap navin">
+<a aria-label="NexaTools home" class="logo" href="index.html"><b>N.</b>Nexa<span>Tools</span></a>
+<nav id="toolNavigation" aria-label="Main navigation" class="links"><a href="index.html">Home</a><a href="index.html#categories">Utility hubs</a><a href="index.html#popular">Popular tools</a><a href="tools.html">All tools</a></nav>
+<a class="nav-cta" href="tools.html">All 50 tools <span>→</span></a>
+<button class="tool-menu-toggle" id="toolMenuToggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="toolNavigation"><i class="fa-solid fa-bars" aria-hidden="true"></i></button>
+</div></header>
+<main>
+<section class="pagehero"><div class="wrap">
+<div class="breadcrumb"><a href="index.html">Home</a><span>/</span><a href="index.html#categories">Student Utility Hub</a><span>/</span><span>GPA Calculator</span></div>
+<span class="eyebrow">STUDENT UTILITY HUB</span><h1>GPA Calculator</h1><p>Calculate a weighted GPA on a 5-point scale.</p>
+<div class="tool-meta"><span><i></i> Free to use</span><span>Runs in your browser</span><span>No account needed</span></div>
+</div></section>
+<section class="wrap tool-layout">
+<div class="tool-main">
+<div class="panel"><h2>Enter your courses</h2><p class="help">This calculator uses a 5-point scale: A=5, B=4, C=3, D=2, E=1, F=0. Confirm your institution’s grading scale.</p><div id="courses"></div><div class="actions"><button class="btn" id="add">Add course +</button><button class="btn" id="calculate">Calculate GPA</button></div><div class="result" id="result"></div></div>
+<section aria-labelledby="how-title" class="content-panel"><div class="content-kicker">A QUICK GUIDE</div><h2 id="how-title">Work out a weighted GPA from your courses</h2><p class="content-lead">Enter each course, its grade and credit units to calculate a weighted GPA on a 5-point scale. Always compare the result with your institution's official grading policy.</p>
+<h3>How to use it</h3><ol class="steps-list"><li>Add each course you want to include.</li><li>Select the grade and enter its credit units.</li><li>Choose Calculate to see the weighted GPA.</li></ol>
+<div class="tip-box"><b>Helpful tip</b><p>Use the grade-point scale and credit units recognised by your institution. This calculator uses a 5-point scale, so confirm your school&#x27;s grading rules.</p></div>
+</section>
+<section aria-labelledby="faq-title" class="content-panel faq-panel"><div class="content-kicker">GOOD TO KNOW</div><h2 id="faq-title">Frequently asked questions</h2><p class="content-lead">Check the grade-point scale, credit units and assumptions used by this GPA calculator.</p><details class="faq-item"><summary>Which GPA scale does this calculator use?</summary><div>It uses a 5-point scale, with A=5, B=4, C=3, D=2, E=1 and F=0.</div></details><details class="faq-item"><summary>Why do credit units matter?</summary><div>A course with more credit units contributes more to the weighted GPA than a course with fewer units.</div></details><details class="faq-item"><summary>Will this match every university?</summary><div>No. Institutions can use different grade points, course rules and rounding methods. Check your school's handbook.</div></details></section>
+</div>
+<aside class="tool-aside">
+<div class="adbox">ADVERTISEMENT SPACE</div>
+<div class="aside-card"><h3>Explore related tools</h3><a class="related-tool" href="cgpa-calculator.html"><span>CGPA Calculator</span><b>↗</b></a><a class="related-tool" href="grade-calculator.html"><span>Grade Calculator</span><b>↗</b></a><a class="related-tool" href="study-timetable-generator.html"><span>Study Timetable Generator</span><b>↗</b></a><a class="related-tool" href="word-counter.html"><span>Word Counter</span><b>↗</b></a></div>
+<div class="aside-card"><h3>Need something else?</h3><p>Browse the complete NexaTools directory to find another free utility.</p><a class="aside-browse" href="tools.html">Browse all 50 tools <b>→</b></a></div>
+</aside>
+</section>
+</main>
+<footer class="footer"><div class="wrap footin"><span>© 2026 NexaTools. Useful tools for everyday work.</span><span><a href="index.html">Home</a> · <a href="about.html">About</a> · <a href="contact.html">Contact</a> · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></span></div></footer>
+
+
+
+
+
+<script src="assets/js/app.js"></script><script>
+(() => {
+  const button = document.getElementById('toolMenuToggle');
+  const nav = document.getElementById('toolNavigation');
+  if (!button || !nav) return;
+  const close = () => { document.body.classList.remove('tool-menu-open'); button.setAttribute('aria-expanded','false'); button.setAttribute('aria-label','Open navigation'); button.innerHTML='<i class="fa-solid fa-bars" aria-hidden="true"></i>'; };
+  button.addEventListener('click', () => {
+    const open = document.body.classList.toggle('tool-menu-open');
+    button.setAttribute('aria-expanded', String(open));
+    button.setAttribute('aria-label', open ? 'Close navigation' : 'Open navigation');
+    button.innerHTML = open ? '<i class="fa-solid fa-xmark" aria-hidden="true"></i>' : '<i class="fa-solid fa-bars" aria-hidden="true"></i>';
+  });
+  nav.querySelectorAll('a').forEach(link => link.addEventListener('click', close));
+  document.addEventListener('keydown', event => { if (event.key === 'Escape') close(); });
+})();
+</script>
+</body></html>
