@@ -1,1 +1,1 @@
-# Add the exact publisher record supplied by Google after approval. Do not invent a publisher ID.
+google.com, pub-5985586855471746, DIRECT, f08c47fec0942fa0# Add the exact publisher record supplied by Google after approval. Do not invent a publisher ID.
